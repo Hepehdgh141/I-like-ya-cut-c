@@ -35,4 +35,6 @@ int main() {
 	signed long long int r;
 	unsigned long long s;
 	unsigned long long int t;
+	
+	return 0;
 }
