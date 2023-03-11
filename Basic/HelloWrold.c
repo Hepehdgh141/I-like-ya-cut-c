@@ -1,5 +1,5 @@
 // 헤더 부분 
-#include <stdio.h>
+#include <stdio.h> // <<- 참고로 이거 없으면 C언어 코딩 못 함
 #include <stdlib.h>
 
 // 메인 프로그램 
