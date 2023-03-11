@@ -5,6 +5,6 @@
 // 메인 프로그램 
 int main() {
 	// print 함수 
-	printf("Hello World!");
+	printf("Hello World!"); // 코드 대부분 뒤엔 세미콜론(;)을 붙여줘야 한다.
 	return 0; // 리턴 값 
 }
