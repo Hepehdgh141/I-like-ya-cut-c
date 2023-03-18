@@ -7,6 +7,7 @@ int main() {
   printf("%g", 0.123);  // 실수 float 하지만 그냥 출력
   printf("%c", 'a'); // 문자 char
   printf("%s", "Hello guys"); // 문자열 string 근데 굳이?
+  printf("\lf", 123.412); // 부동소수점 double
   printf("\n \t \\ \" \' %%");
   /*
   \n은 줄바꿈, \t은 tab키, \\은 \ 출력, \"는 " 를출력, \'는 '를 출력한다.
