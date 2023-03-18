@@ -32,7 +32,7 @@ Truth about da c
 [Basic.No12(Function)](./Basic/Function.c)
 <!-- </details> -->
 
-### [Bonus]
+### Bonus
 <!-- <details> -->
 <!-- <summary>Bonus Of Basic</summary> -->
 
