@@ -32,7 +32,7 @@ Truth about da c
 [Basic.No12(Function)](./Basic/Function.c)
 <!-- </details> -->
 
-### Bonus
+### [Bonus]
 <!-- <details> -->
 <!-- <summary>Bonus Of Basic</summary> -->
 
@@ -47,7 +47,7 @@ Truth about da c
 [Basic.Bonus.No5(String)](./Basic/stringh.c)
 <!-- </details> -->
 
-## Advanced
+## [Advanced](./Adavanced)
 <!-- DETAILS SHOULD USE WHEN THERE'S MORE THAN NO5 OF LECTURES BUT THERES NO MORE DETAILS AHH-->
 
 [Advanced.No1](./Advanced/RecursiveFunction.c)
