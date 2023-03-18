@@ -5,6 +5,7 @@ int i; // 이렇게 하면 모든 함수에서 쓰일 수 있다.
 
 int main() {
 	// 변수를 선언만 하고 값은 지정하지 않아도 된다. 
+	// 참고로 const int inteager 처럼 쓴다면 상수, 즉 변경할 수 없는 변수가 된다.
 	int inteager; // 정수 int 변수 이다.
 	unsigned int longInteager; // 1부터 42억 까지 저장 할 수 있다.
 	bool boolean = true; // true와 false인 참과 거짓을 나타내는 변수이다.
