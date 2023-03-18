@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <string.h>
 
 int i;
 
@@ -15,7 +16,9 @@ int main() {
 	/*
 	for(i = 0; ch[i] != NULL; i++){ // 문자 배열 출력법. ch[i]가 NULL이 아니라면? 이라는 뜻이다.
     		printf("%c", c[i]);
-	}
+	} 하지만 이렇게하면 매우 귀찮으므로 그냥 puts(ch);를 써도 된다.
+	// 또한 gets();를 쓰면 줄바꿈을 해도 값이 다 입력 받을때 까지 scanf처럼 작동한다.
+	// 참고로 scanf("%s", cha);를 쓰면서 줄바꿈을 하면 거기서 끝이다.
 	*/
 	
 	for (i=0;i<10;i++) {
