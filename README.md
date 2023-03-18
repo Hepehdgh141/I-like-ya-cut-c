@@ -50,4 +50,4 @@ Truth about da c
 ## [Advanced](./Adavanced)
 <!-- DETAILS SHOULD USE WHEN THERE'S MORE THAN NO5 OF LECTURES BUT THERES NO MORE DETAILS AHH-->
 
-[Advanced.No1](./Advanced/RecursiveFunction.c)
+[Advanced.No1(Recursive Function)](./Advanced/RecursiveFunction.c)
