@@ -6,5 +6,5 @@
 int main() {
 	// print 함수 
 	printf("Hello World!"); // 코드 대부분 뒤엔 세미콜론(;)을 붙여줘야 한다.
-	return 0; // 리턴 값 
+	return 0; // 리턴 값. 함수를 종료하고 호출자에게로 돌아감
 }
