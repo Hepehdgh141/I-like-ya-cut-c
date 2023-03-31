@@ -9,5 +9,5 @@ int FibonaciFunc(int n) {
 }
 
 int main() {
-  FibonaciFunc(32)
+  FibonaciFunc(32);
 }
