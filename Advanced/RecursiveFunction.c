@@ -8,7 +8,7 @@ int Count(int n) {
     	printf("\nROUND ENDED"); // 굳이 안 넣어도 되지만 그냥 넣었다
 	return 0;
     }
-    printf("\n%d SECONDS REMAINS", n);
+    printf("%d SECONDS REMAINS", n);
     n--;
     Sleep(1000);
     printf("\n");
