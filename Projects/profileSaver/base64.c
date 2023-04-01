@@ -1,8 +1,7 @@
+#include "base64.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-# THIS CODE IS FOR SECURE.
 
 const char base64chars[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
@@ -52,20 +51,4 @@ int base64_decode(const char *input, unsigned char *output) {
 
     output[output_len] = '\0';
     return output_len;
-}
-
-int main() {
-    unsigned char input[256];
-    scanf("%s", input);
-    char encoded[256];
-    unsigned char decoded[256];
-
-    int encoded_len = base64_encode(input, strlen(input), encoded);
-    printf("Encoded: %s\n", encoded);
-
-    int decoded_len = base64_decode(encoded, decoded);
-    decoded[decoded_len] = '\0';
-    printf("Decoded: %s\n", decoded);
-
-    return 0;
 }
