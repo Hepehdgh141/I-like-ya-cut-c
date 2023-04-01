@@ -1,13 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <Windows.h>
 
-int FibonaciFunc(int n);
+int Count(int n);
 
-int FibonaciFunc(int n) { 
-    if (n == 1) return 1; // 재귀함수가 끝나는 조건
-    return n * factorial(n - 1); // 함수 안에 함수 값
+int Count(int n) {
+    if (n == 0){ // 끝나는 조건. n이 0이 될때, 즉 끝나는 조건.
+    	printf("\nROUND ENDED");
+		return 0;
+	}
+    printf("\n%d SECONDS REMAINS", n);
+    n--;
+    Sleep(1000);
+    printf("\n");
+	Count(n); // 이렇게 for문이나 while문 대신 이렇게 재귀함수를 써서 쓸 수 있다.
 }
 
 int main() {
-  FibonaciFunc(32);
+  Count(10);
 }
