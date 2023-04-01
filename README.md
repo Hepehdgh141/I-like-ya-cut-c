@@ -1,7 +1,7 @@
 # I-like-ya-cut-c
 Truth about da c
 
-__ALL OF THIS CODES ARE FROM JOEL__
+__ALMOST ALL OF THIS CODES ARE FROM JOEL__
 
 <!-- THIS IMAGE IS FROM NICOS NEXTBOTS FANDOM WIKI -->
 ![Possible](https://user-images.githubusercontent.com/72325653/224474672-c90bfb8e-cc5c-49bc-827e-5b7026eaa733.png) Work In Progress
