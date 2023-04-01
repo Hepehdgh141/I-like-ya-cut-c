@@ -5,9 +5,9 @@ int Count(int n);
 
 int Count(int n) {
     if (n == 0){ // 끝나는 조건. n이 0이 될때, 즉 끝나는 조건.
-    	printf("\nROUND ENDED");
-		return 0;
-	}
+    	printf("\nROUND ENDED"); // 굳이 안 넣어도 되지만 그냥 넣었다
+	return 0;
+    }
     printf("\n%d SECONDS REMAINS", n);
     n--;
     Sleep(1000);
