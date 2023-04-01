@@ -54,3 +54,7 @@ __ALL OF THIS CODES ARE FROM JOEL__
 <!-- DETAILS SHOULD USE WHEN THERE'S MORE THAN NO5 OF LECTURES BUT THERES NO MORE DETAILS AHH-->
 
 [Advanced.No1(Recursive Function)](./Advanced/RecursiveFunction.c)
+
+## Master
+
+## Projects
