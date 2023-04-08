@@ -15,7 +15,12 @@ int main() {
   
   // 아래 코드는 조건 연산자다.
   int a = 1, b = 2;
-  printf("%d", a > b ? 'DAMN' : 'NO') // a가 b보다 크다면 ? (참일때) : (거짓일때)
+  printf(a > b ? "DAMN" : "NO"); // a가 b보다 크다면 ? (참일때) : (거짓일때)
+  int q = z > x ? z : x; // 이렇게도 쓸 수 있다.
+  /*
+  int a = true;
+  printf(a ? "True", "False");
+  */
     
   //아래 코드는 if 문이다.
   if (a > b) { // 괄호 안에 조건문을 넣는다.
