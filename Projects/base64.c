@@ -54,7 +54,9 @@ int base64_decode(const char *input, unsigned char *output) {
 
 int main() {
     unsigned char input[256];
-    scanf("%s", input);
+    fgets(input, sizeof(input), stdin);
+    input[strcspn(input, "\n")] = '\0';
+
     char encoded[256];
     unsigned char decoded[256];
 
