@@ -3,9 +3,6 @@
 #include <stdbool.h>
 #include <time.h>
 
-#define MAX(x, y) (((x) > (y)) ? (x) : (y))
-
-
 int main() {
 	int num1, num2;
 	double num3, num4, num5, num6, num7, num8, max;
@@ -49,10 +46,20 @@ int main() {
 		printf("num3는 0 입니다\n");
 	}
 	
-	max = MAX(num4, num5);
-	max = MAX(max, num6);
-	max = MAX(max, num7);
-	max = MAX(max, num8);
+	max = num4;
+
+	if (num5 > max) {
+		max = num5;
+	}
+	if (num6 > max) {
+		max = num6;
+	}
+	if (num7 > max) {
+		max = num7;
+	}
+	if (num8 > max) {
+		max = num8;
+	}
 	
 	printf("%.2lf", max);
 		
