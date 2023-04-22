@@ -31,10 +31,10 @@ int main() {
 		printf("3의 배수입니다\n");
 	}
 	if (num1 > num2) {
-		printf(num1 / num2 == 0 ? "num1 / num2는 나누어 떨어집니다\n" : "num1 / num2는 나누어 떨어지지 않습니다\n");
+		printf(num1 % num2 ? "num1 / num2는 나누어 떨어지지 않습니다\n" : "num1 / num2는 나누어 떨어집니다\n");
 	}
 	else if(num1 < num2) {
-		printf(num2 / num1 == 0 ? "num2 / num1는 나누어 떨어집니다\n" : "num2 / num1는 나누어 떨어지지 않습니다\n");
+		printf(num2 % num1 ? "num2 / num1는 나누어 떨어지지 않습니다\n" : "num2 / num1는 나누어 떨어집니다\n");
 	}
 	else {
 		printf("num1과 num2는 같습니다\n");
