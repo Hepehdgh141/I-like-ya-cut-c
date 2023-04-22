@@ -14,6 +14,7 @@ int main() {
 	default: // 위의 모든 것이 아닐때 이 코드가 실행된다. 
 		printf("defualt\n");
   }
+  // 근데 나사빠진 곳이 많아서 쓰지 않는걸 추천한다
   
   return 0;
 }
