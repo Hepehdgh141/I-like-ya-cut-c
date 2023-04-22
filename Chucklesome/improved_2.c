@@ -5,7 +5,6 @@
 
 #define MAX(x, y) (((x) > (y)) ? (x) : (y))
 
-
 int main() {
 	int num1, num2;
 	double num3, num4, num5, num6, num7, num8, max;
