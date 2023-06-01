@@ -60,6 +60,8 @@ __ALMOST ALL OF THIS CODES ARE FROM JOEL__
 
 ### Bonus
 
+[Advanced.Bonus.No1(Memset)](./Advanced/memset.c)
+
 ## Master
 
 ## Projects
