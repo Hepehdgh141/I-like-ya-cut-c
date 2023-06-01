@@ -12,7 +12,7 @@ int main() {
   
   printf("number: %d\n", number);
   printf("ptr's address: %d\n", ptr); // 포인터 주소를 출력하는 방법. 포인터 주소는 항상 바뀐다. 
-  printf("ptr value: %d", *ptr); // ptr*, ptr *은 안되고 * ptr은 된다
+  printf("ptr value: %d", *ptr); // ptr*, ptr *은 안되고 * ptr은 된다.
   
   return 0;
 }
