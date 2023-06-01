@@ -55,6 +55,10 @@ __ALMOST ALL OF THIS CODES ARE FROM JOEL__
 
 [Advanced.No1(Recursive Function)](./Advanced/RecursiveFunction.c)
 
+[Advanced.No2(Pointer)](./Advanced/Pointer.c)
+
+### Bonus
+
 ## Master
 
 ## Projects
