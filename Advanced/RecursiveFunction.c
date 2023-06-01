@@ -10,9 +10,9 @@ int Count(int n) {
     }
     printf("%d SECONDS REMAINS", n);
     n--;
-    Sleep(1000);
+    Sleep(1000)
     printf("\n");
-	Count(n); // 이렇게 for문이나 while문 대신 이렇게 재귀함수를 써서 쓸 수 있다.
+    Count(n); // 이렇게 for문이나 while문 대신 이렇게 재귀함수를 써서 쓸 수 있다.
 }
 
 int main() {
