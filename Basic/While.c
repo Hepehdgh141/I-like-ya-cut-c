@@ -13,7 +13,7 @@ int main() {
   printf("\ni resetted for do-while.\n");
   printf("\n");
   
-  // 아래 코드는 do-while문인데 솔직히 굳이 쓸 필요는 없다. 
+  // do-while문은 while문과 달리 일단 실행해보고 조건을 확인을 하는 방식이다.
   do {
   	printf("i went to %d.\n", i);
   	i++;
