@@ -60,7 +60,7 @@ __SOME CODES ARE FROM JOEL__
 
 ### Bonus
 
-[Advanced.Bonus.No1(Memset)](./Advanced/memset.c)
+[Advanced.Bonus.No1(Memory)](./Advanced/memory.c)
 
 ## Master
 
