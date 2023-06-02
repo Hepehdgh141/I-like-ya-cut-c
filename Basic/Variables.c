@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 int i; // 이렇게 하면 모든 함수에서 쓰일 수 있다. 
 // 또한 선언할때 int a, b = (12, 34); 같이 쓰면 한번에 선언 할 수 있으나 가독성이 떨어진다.
@@ -38,6 +39,7 @@ int main() {
 	signed long long int r;
 	unsigned long long s;
 	unsigned long long int t;
+	// 이 외에도 더 많다.
 	
 	return 0;
 }
