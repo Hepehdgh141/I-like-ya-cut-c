@@ -18,7 +18,7 @@ typedef struct {
 } student; // typedef 구조체는 마지막에 이름을 써야한다.
 
 int main() {
-  struct Student someguy = {21, 9 / 10, "someguyReal", "010-1234-5678"}; // 구조체 변수 선언 방법. 사실, 그냥 선언만 하고 값 설정은 안해도 된다.
+  struct Student someguy = {21, 9 / 10, "someguyReal", "010-1234-5678"}; // 구조체 변수 선언 방법. 그냥 선언만 하고 값 설정은 안해도 된다.
   someguy.id = 19721121; // 이렇게 따로 설정 할 수 있다.
   student newguy; // typedef 구조체 마지막에 이름 쓴걸 이렇게 쓴다.
 
