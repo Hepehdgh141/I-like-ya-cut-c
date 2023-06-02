@@ -7,14 +7,14 @@ int main() {
   switch(a) { // 괄호안에 변수를 넣는다 
   	case 1: // case 1의 뜻은 a가 1값이라면? 이다.  안에는 무엇이든지 들어갈 수 있다. 
   		printf("1");
-		break;
+		break; // break문을 안 쓰면 1이 값이라면 1, 2, default 다 출력된다.
 	case 2:
 		printf("2");
 		break;
 	default: // 위의 모든 것이 아닐때 이 코드가 실행된다. 
 		printf("defualt\n");
+		break;
   }
-  // 근데 나사빠진 곳이 많아서 쓰지 않는걸 추천한다.
   
   return 0;
 }
