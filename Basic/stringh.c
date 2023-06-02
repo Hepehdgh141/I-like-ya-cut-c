@@ -8,7 +8,7 @@ int main() {
 
   strcat(str1, " ");
   memset(str2, 0, sizeof(str2)); // 스트링은 어쩔 수 없이 다시 바꾸려면 이렇게
-                                 // 하고 아래 처럼 해야한다.
+                                 // 하고 아래 처럼 해야한다. 아님 for문써도 되는데 간단하게 이걸 쓰자.
   strcat(str2, "world!");
 
   strcat(str1, str2); // str1의 끝에 str2를 이어붙이는 명령문.
@@ -35,7 +35,7 @@ int main() {
   strcat(str, "Hello, world!");
   char ch = 'w';
   char *ptr = strchr(str, ch); // 문자열에서 'w'가 처음 나타나는 위치를 찾음.
-                               // 포인터를 쓰므로 아직 이해하지 않아도
+                               // 포인터를 쓰므로 아직 이해하지 않아도 된다.
   if (ptr != NULL) {
     printf("문자열 \"%s\"에서 문자 '%c'는 %ld번째에 위치합니다.\n", str, ch,
            ptr - str);
