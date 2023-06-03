@@ -26,3 +26,5 @@ int main() {
   
   return 0;
 }
+
+// 참고로 구조체 안에 구조체를 넣을 수 있다. 그렇게 한다면 structname1.structname2.id 같이 쓰면 된다. 참고로 자기 자신도 된다.
