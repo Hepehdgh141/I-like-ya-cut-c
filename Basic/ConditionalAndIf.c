@@ -16,6 +16,7 @@ int main() {
   
   // 아래 코드는 조건 연산자다.
   int a = 1, b = 2;
+  int z = 12, x = 21;
   printf(a > b ? "DAMN" : "NO"); // a가 b보다 크다면 ? (참일때) : (거짓일때)
   int q = z > x ? z : x; // 이렇게도 쓸 수 있다.
   /*
@@ -30,7 +31,7 @@ int main() {
   else if (a == b) { // 위 if문이 거짓일때 또 if문을 쓰는법
     return 6;
   }
-  else { // 위 조건문들이 모드 아닐때
+  else { // 위 조건문들이 모두 아닐때
     return 0; // 참고로 return이 나오면 프로그램은 끝난다.
   }
   
