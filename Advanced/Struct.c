@@ -21,6 +21,8 @@ int main() {
   struct Student someguy = {21, 9 / 10, "someguyReal", "010-1234-5678"}; // 구조체 변수 선언 방법. 그냥 선언만 하고 값 설정은 안해도 된다.
   someguy.id = 19721121; // 이렇게 따로 설정 할 수 있다.
   student newguy; // typedef 구조체 마지막에 이름 쓴걸 이렇게 쓴다.
+  student amogus[2] = {{.name = "aaa"}, {.name = "bb"}}; // 구조체 배열도 만들 수 있다. amogus[1].name 이런식으로 작성해야 된다.
+  // 참고로 그냥 구조체도 someguy = {.name = "aaa"} 이런식으로 한번에 다 설정하지 않고 하나만 정해도 된다.
 
   printf("%d", someguy.id /* 혹은 (*someguy).id */);
   
