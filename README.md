@@ -58,6 +58,10 @@ __SOME CODES ARE FROM JOEL__
 
 [Advanced.No2(Pointer)](./Advanced/Pointer.c)
 
+[Advanced.No3(Struct)](./Advanced/Struct.c)
+
+[Advanced.No4(Pointer And (Struct And List))](./Advanced/Pointers.c)
+
 ### Bonus
 
 [Advanced.Bonus.No1(Memory)](./Advanced/memory.c)
